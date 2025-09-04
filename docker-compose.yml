@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+  postgres:
+      image: postgres:latest
+      container_name: postgres_container
+      environment:
+        POSTGRES_USER: postgres
+        POSTGRES_PASSWORD: Chelo1965*
+        POSTGRES_DB: bd_backend_nest
+      ports:
+        - "5422:5432" 
+      volumes:
+        - postgres_data:/var/lib/postgresql/data
+
+volumes:   # ✅ Debe ir al mismo nivel que services, no dentro
+  postgres_data:

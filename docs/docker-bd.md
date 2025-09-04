@@ -1,0 +1,1 @@
+docker run --name postgres-bd-proy -e POSTGRES_PASSWORD=admin54321 -e POSTGRES_DB=bd_compra_venta_inventario -p 5422:5432 -d postgres

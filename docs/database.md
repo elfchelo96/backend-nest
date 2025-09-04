@@ -4,3 +4,7 @@
 ```
 npm install --save @nestjs/typeorm typeorm pg
 ```
+Levantar Docker
+```
+docker compose up
+```
