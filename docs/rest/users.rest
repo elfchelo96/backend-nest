@@ -1,0 +1,31 @@
+### Ver usuarios
+GET http://127.0.0.1:4000/users
+
+### Ver usuarios
+POST http://127.0.0.1:4000/users
+Content-Type: application/json
+
+{
+    "username": "David2222",
+    "email": "davidmarcelo333322.cr@gmail.com",
+    "password": "Chelo1965*",
+    "isActive": true
+}
+
+### Ver usuarios
+GET http://127.0.0.1:4000/users/da84da42-2c27-4e20-ba08-9d0c9cb635fd
+
+### Ver usuarios
+PATCH http://127.0.0.1:4000/users/da84da42-2c27-4e20-ba08-9d0c9cb635fd
+Content-Type: application/json
+
+{
+    "username": "David2222",
+    "email": "davidmarcelo333322.cr@gmail.com",
+    "password": "Chelo1965*",
+    "isActive": true
+}
+
+### Ver usuarios
+DELETE http://127.0.0.1:4000/users/806cd14f-fe1d-4cda-b236-05db130a5abf
+
